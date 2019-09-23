@@ -9,3 +9,4 @@ target/
 .vscode/
 .classpath
 nb-configuration.xml
+src/main/java/com/pe/geral/InicializarRecursosContexto.java
