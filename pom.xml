@@ -105,11 +105,13 @@
 
 		<!-- Essa dependência é necessária apenas no ambiente de Produção. Comentar 
 			quando em Desenvolvimento -->
-		<!--<dependency> <groupId>starmetal</groupId> <artifactId>com.tcc2.starmetal</artifactId> 
-			<version>0.0.1</version> <scope>system</scope> <systemPath> /opt/app-root/src/src/main/webapp/WEB-INF/lib/starmetal.jar 
-			</systemPath> </dependency> -->
-
-		<dependency>
+		<dependency> <groupId>starmetal</groupId> <artifactId>com.tcc2.starmetal</artifactId> 
+			<version>0.0.1</version>
+			<scope>system</scope> 
+			<systemPath> /opt/app-root/src/src/main/webapp/WEB-INF/lib/starmetal.jar</systemPath>
+		</dependency>
+			 
+		<dependency>	
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>6.0.17.Final</version>
