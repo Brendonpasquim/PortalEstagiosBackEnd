@@ -18,7 +18,7 @@ public class InicializarRecursosContexto implements ServletContextListener{
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 		LOG.info("Inicializando Connection Manager no contexto de aplicação.");
-		manager = new ConnectionManager(false);
+		manager = new ConnectionManager(true);
 
 		LOG.info("Disponibilizando Connection Manager no contexto de aplicação.");
 		ServletContext context = sce.getServletContext();
